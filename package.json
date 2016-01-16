@@ -1,10 +1,12 @@
 {
   "name": "airborne-cargo-drone-controller",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "find": "node find.js",
+    "controller": "node controller.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/makky3939/airborne-cargo-drone-controller/issues"
   },
-  "homepage": "https://github.com/makky3939/airborne-cargo-drone-controller#readme"
+  "homepage": "https://github.com/makky3939/airborne-cargo-drone-controller#readme",
+  "dependencies": {
+    "cylon": "^1.2.0",
+    "cylon-keyboard": "^0.16.0",
+    "cylon-rolling-spider": "^1.2.0",
+    "noble": "^1.3.0"
+  }
 }
