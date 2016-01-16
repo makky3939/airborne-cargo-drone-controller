@@ -10,7 +10,7 @@ npm run find
 
 ### Control four drone
 
-Please set your drone UUID.
+Please set your drone of UUID here. https://github.com/makky3939/airborne-cargo-drone-controller/blob/master/controller.js#L12
 
 ```
 npm run controller
